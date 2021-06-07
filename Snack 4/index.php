@@ -12,15 +12,15 @@
 
 <?php
 
-$arr = [];
+$arrayRandom = [];
     
-    while (count($arr) < 50) {
+    while (count($arrayRandom) < 50) {
       $num = rand(1, 50);
-      if (!in_array($num, $arr)) {
-        array_push($arr, $num);
+      if (!in_array($num, $arrayRandom)) {
+        array_push($arrayRandom, $num);
       }
-    }
-
+    };
+var_dump($arrayRandom)
 
 ?>
 </body>

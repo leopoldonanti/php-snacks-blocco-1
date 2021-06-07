@@ -40,6 +40,7 @@
 <ul>
 
   <?php 
+
       foreach ($arrayEventi as $arrayEvento){
     ?>
 
